@@ -78,7 +78,7 @@ Límites. El laboratorio simula una red, no una cafetería real, y el DoH se for
 11. RFC 8484, oct 2018. <https://www.rfc-editor.org/rfc/rfc8484.txt>
 12. Apple, WWDC20, Enable encrypted DNS (iOS 14). <https://developer.apple.com/videos/play/wwdc2020/10047>
 13. Cloudflare, Good-bye ESNI, hello ECH, 8 dic 2020. <https://blog.cloudflare.com/encrypted-client-hello/>
-14. RFC 8446 (TLS 1.3), ago 2018, y RFC 6066, ene 2011. https://www.rfc-editor.org/rfc/rfc8446.txt y <https://www.rfc-editor.org/rfc/rfc6066.txt>
+14. RFC 8446 (TLS 1.3), ago 2018, y RFC 6066, ene 2011. <https://www.rfc-editor.org/rfc/rfc8446.txt> y <https://www.rfc-editor.org/rfc/rfc6066.txt>
 15. RFC 9849, TLS Encrypted Client Hello, mar 2026. <https://www.rfc-editor.org/rfc/rfc9849.txt>
 16. Cloudflare, Encrypted Client Hello, the last puzzle piece, 29 sep 2023. <https://blog.cloudflare.com/announcing-encrypted-client-hello/>
 17. Mozilla, Encrypted Hello, 3 oct 2023. <https://blog.mozilla.org/en/firefox/encrypted-hello/>
@@ -87,7 +87,7 @@ Límites. El laboratorio simula una red, no una cafetería real, y el DoH se for
 20. AOSP NetworkStack, config.xml. <https://android.googlesource.com/platform/packages/modules/NetworkStack/+/refs/heads/main/res/values/config.xml>
 21. Mullvad, comprobaciones de conectividad en Android, 25 abr 2024. <https://mullvad.net/en/help/configure-connectivity-checks-on-android>
 22. Apple, Usar productos Apple en redes empresariales. <https://support.apple.com/en-us/101555>
-23. RFC 8908 y RFC 8910, sep 2020. https://www.rfc-editor.org/rfc/rfc8908.txt y <https://www.rfc-editor.org/rfc/rfc8910.txt>
+23. RFC 8908 y RFC 8910, sep 2020. <https://www.rfc-editor.org/rfc/rfc8908.txt> y <https://www.rfc-editor.org/rfc/rfc8910.txt>
 24. Ali, Osman, Mannan y Youssef, On Privacy Risks of Public WiFi Captive Portals, arXiv, 3 jul 2019. <https://arxiv.org/pdf/1907.02142>
 25. AEPD, Tecnologías de seguimiento wifi, mayo de 2024. <https://www.aepd.es/guias/orientaciones-wifi-tracking-seguimiento.pdf>
 26. CISA, Securing Wireless Networks. <https://www.cisa.gov/news-events/news/securing-wireless-networks>

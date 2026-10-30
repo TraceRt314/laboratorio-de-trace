@@ -76,7 +76,7 @@ Todo se grabó en una terminal real, con scripts propios.
 17. Foro de Privacy Guides, hilo sobre la matriz de soporte de Cellebrite para iPhone, jul 2024 (fuente comunitaria). <https://discuss.privacyguides.net/t/updated-cellebrite-iphone-support-matrix-leak/19578/25>
 18. Joseph Cox, 404 Media, llamada de Teams de Cellebrite, 30 oct 2025 (muro de pago). <https://www.404media.co/someone-snuck-into-a-cellebrite-microsoft-teams-call-and-leaked-phone-unlocking-details/>
 19. Foro de Privacy Guides, transcripción de la tabla del Pixel 9, 30 oct 2025 (fuente comunitaria, imagen borrosa). <https://discuss.privacyguides.net/t/someone-snuck-into-a-cellebrite-microsoft-teams-call-and-leaked-phone-unlocking-details/32448>
-20. Zinkus, Jois y Green, Data Security on Mobile Devices, Johns Hopkins, arXiv 2105.12613, mayo de 2021. https://arxiv.org/abs/2105.12613 y <https://securephones.io/main.html>
+20. Zinkus, Jois y Green, Data Security on Mobile Devices, Johns Hopkins, arXiv 2105.12613, mayo de 2021. <https://arxiv.org/abs/2105.12613> y <https://securephones.io/main.html>
 21. Markert, Bailey, Golla, Dürmuth y Aviv, This PIN Can Be Easily Guessed, IEEE S&P 2020. <https://arxiv.org/abs/2003.04868>
 22. Ley de Enjuiciamiento Criminal, arts. 588 sexies a a c (texto consolidado, BOE). <https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036>
 23. Apple Platform Security, Face ID, Touch ID, códigos y contraseñas (página del 19 dic 2024). <https://support.apple.com/guide/security/face-id-touch-id-passcodes-and-passwords-sec9479035f1/web>

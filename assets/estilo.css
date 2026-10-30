@@ -117,7 +117,7 @@ main, .pie { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe
 
 /* Fuentes */
 .doc ol.fuentes { list-style: none; padding: 0; counter-reset: f; font-size: 14.5px; line-height: 1.55; }
-.doc ol.fuentes > li { counter-increment: f; display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 4px 8px; padding: 12px 10px; margin: 0; border-radius: 10px; border-bottom: 1px solid var(--s0); scroll-margin-top: 90px; }
+.doc ol.fuentes > li { overflow-wrap: anywhere; counter-increment: f; display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 4px 8px; padding: 12px 10px; margin: 0; border-radius: 10px; border-bottom: 1px solid var(--s0); scroll-margin-top: 90px; }
 .doc ol.fuentes > li::before { content: counter(f); font: 600 13px/1.6 var(--mono); color: var(--ac); }
 .doc ol.fuentes > li > * { grid-column: 2; }
 .doc ol.fuentes a { overflow-wrap: anywhere; font: 400 12.5px/1.5 var(--mono); color: var(--sub); }

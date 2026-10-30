@@ -1,0 +1,7 @@
+<header class="barra">
+  <a class="marca" href="{{ '/' | relative_url }}"><img src="{{ '/assets/avatar.webp' | relative_url }}" alt="" width="28" height="28"><span>El Laboratorio de Trace</span></a>
+  <nav class="pestanas" aria-label="Episodios">
+    {% for e in site.data.episodios reversed %}<a href="{{ e.slug | append: '.html' | relative_url }}"{% if e.slug == include.slug %} aria-current="page"{% endif %}><span>{{ forloop.index }}</span>{{ e.num }}</a>{% endfor %}
+  </nav>
+  <a class="canal" href="https://www.youtube.com/@ellaboratoriodetrace">YouTube</a>
+</header>

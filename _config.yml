@@ -1,4 +1,13 @@
 title: El Laboratorio de Trace
-description: Documentación técnica y fuentes de cada vídeo
+description: Documentación técnica y fuentes de cada vídeo de El Laboratorio de Trace
 lang: es
-theme: jekyll-theme-primer
+url: https://tracert314.github.io
+baseurl: /laboratorio-de-trace
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+defaults:
+  - scope: {path: ""}
+    values: {layout: doc}
+exclude: [README.md]

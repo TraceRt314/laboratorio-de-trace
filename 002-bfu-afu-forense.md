@@ -1,4 +1,4 @@
-# Así abren tu móvil bloqueado (y un reinicio lo impide)
+# Así abren tu móvil bloqueado, y por qué un reinicio lo complica
 
 Documentación técnica del episodio 002 de El Laboratorio de Trace: por qué un móvil reiniciado resiste mucho mejor un análisis forense que uno que lleva días encendido.
 
@@ -57,28 +57,28 @@ Todo se grabó en una terminal real, con scripts propios.
 
 ## Fuentes
 
-1. Apple Platform Security, clases de Data Protection (página del 19 dic 2024). https://support.apple.com/guide/security/data-protection-classes-secb010e978a/web
-2. Apple Platform Security, Secure Enclave. https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web
-3. Apple Platform Security, códigos y contraseñas. https://support.apple.com/guide/security/passcodes-and-passwords-sec20230a10d/web
-4. AOSP, File-Based Encryption. https://source.android.com/docs/security/features/encryption/file-based
-5. Android Developers, Direct Boot. https://developer.android.com/privacy-and-security/direct-boot
-6. AOSP, Gatekeeper. https://source.android.com/docs/security/features/authentication/gatekeeper
-7. AOSP, Weaver. https://source.android.com/docs/security/features/authentication/weaver
-8. Modadugu y Richardson, Building Titan, Android Developers Blog, 17 oct 2018. https://android-developers.googleblog.com/2018/10/building-titan-better-security-through.html
-9. Jiska Classen, Reverse engineering iOS 18 inactivity reboot, 17 nov 2024. https://naehrdine.blogspot.com/2024/11/reverse-engineering-ios-18-inactivity.html
-10. Ben Schwan, heise online, 20 nov 2024. https://heise.de/-10077069
-11. Lorenzo Franceschi-Bicchierai, TechCrunch, 14 nov 2024. https://techcrunch.com/2024/11/14/new-apple-security-feature-reboots-iphones-after-3-days-researchers-confirm
-12. Joseph Cox, 404 Media, 7 nov 2024. https://404media.co/police-freak-out-at-iphones-mysteriously-rebooting-themselves-locking-cops-out/
-13. 404 Media, Cops can bypass iPhone inactivity reboot (GrayKey), 1 oct 2026. https://404media.co/cops-can-bypass-iphone-automatic-inactivity-reboot-graykey
-14. Privacy Guides, Leaked video shows that police can bypass iPhone's automatic reboot feature, 1 oct 2026. https://www.privacyguides.org/news/2026/10/01/leaked-video-shows-that-police-can-bypass-iphones-automatic-reboot-feature/
-15. GrapheneOS, funciones. https://grapheneos.org/features
-16. Joseph Cox, 404 Media, Leaked docs show what phones Cellebrite can and can't unlock, 17 jul 2024. https://www.404media.co/leaked-docs-show-what-phones-cellebrite-can-and-cant-unlock/
-17. Foro de Privacy Guides, hilo sobre la matriz de soporte de Cellebrite para iPhone, jul 2024 (fuente comunitaria). https://discuss.privacyguides.net/t/updated-cellebrite-iphone-support-matrix-leak/19578/25
-18. Joseph Cox, 404 Media, llamada de Teams de Cellebrite, 30 oct 2025 (muro de pago). https://www.404media.co/someone-snuck-into-a-cellebrite-microsoft-teams-call-and-leaked-phone-unlocking-details/
-19. Foro de Privacy Guides, transcripción de la tabla del Pixel 9, 30 oct 2025 (fuente comunitaria, imagen borrosa). https://discuss.privacyguides.net/t/someone-snuck-into-a-cellebrite-microsoft-teams-call-and-leaked-phone-unlocking-details/32448
-20. Zinkus, Jois y Green, Data Security on Mobile Devices, Johns Hopkins, arXiv 2105.12613, mayo de 2021. https://arxiv.org/abs/2105.12613 y https://securephones.io/main.html
-21. Markert, Bailey, Golla, Dürmuth y Aviv, This PIN Can Be Easily Guessed, IEEE S&P 2020. https://arxiv.org/abs/2003.04868
-22. Ley de Enjuiciamiento Criminal, arts. 588 sexies a a c (texto consolidado, BOE). https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036
-23. Apple Platform Security, Face ID, Touch ID, códigos y contraseñas (página del 19 dic 2024). https://support.apple.com/guide/security/face-id-touch-id-passcodes-and-passwords-sec9479035f1/web
-24. GrapheneOS, notas de versión. https://grapheneos.org/releases
-25. Android Central, Google Play services de abril de 2025 añade reinicio automático (resumen de las notas de versión; la nota oficial de Google no se pudo recuperar). https://www.androidcentral.com/apps-software/android-os/google-play-services-april-auto-reboot-security-changelog
+1. Apple Platform Security, clases de Data Protection (página del 19 dic 2024). <https://support.apple.com/guide/security/data-protection-classes-secb010e978a/web>
+2. Apple Platform Security, Secure Enclave. <https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web>
+3. Apple Platform Security, códigos y contraseñas. <https://support.apple.com/guide/security/passcodes-and-passwords-sec20230a10d/web>
+4. AOSP, File-Based Encryption. <https://source.android.com/docs/security/features/encryption/file-based>
+5. Android Developers, Direct Boot. <https://developer.android.com/privacy-and-security/direct-boot>
+6. AOSP, Gatekeeper. <https://source.android.com/docs/security/features/authentication/gatekeeper>
+7. AOSP, Weaver. <https://source.android.com/docs/security/features/authentication/weaver>
+8. Modadugu y Richardson, Building Titan, Android Developers Blog, 17 oct 2018. <https://android-developers.googleblog.com/2018/10/building-titan-better-security-through.html>
+9. Jiska Classen, Reverse engineering iOS 18 inactivity reboot, 17 nov 2024. <https://naehrdine.blogspot.com/2024/11/reverse-engineering-ios-18-inactivity.html>
+10. Ben Schwan, heise online, 20 nov 2024. <https://heise.de/-10077069>
+11. Lorenzo Franceschi-Bicchierai, TechCrunch, 14 nov 2024. <https://techcrunch.com/2024/11/14/new-apple-security-feature-reboots-iphones-after-3-days-researchers-confirm>
+12. Joseph Cox, 404 Media, 7 nov 2024. <https://404media.co/police-freak-out-at-iphones-mysteriously-rebooting-themselves-locking-cops-out/>
+13. 404 Media, Cops can bypass iPhone inactivity reboot (GrayKey), 1 oct 2026. <https://404media.co/cops-can-bypass-iphone-automatic-inactivity-reboot-graykey>
+14. Privacy Guides, Leaked video shows that police can bypass iPhone's automatic reboot feature, 1 oct 2026. <https://www.privacyguides.org/news/2026/10/01/leaked-video-shows-that-police-can-bypass-iphones-automatic-reboot-feature/>
+15. GrapheneOS, funciones. <https://grapheneos.org/features>
+16. Joseph Cox, 404 Media, Leaked docs show what phones Cellebrite can and can't unlock, 17 jul 2024. <https://www.404media.co/leaked-docs-show-what-phones-cellebrite-can-and-cant-unlock/>
+17. Foro de Privacy Guides, hilo sobre la matriz de soporte de Cellebrite para iPhone, jul 2024 (fuente comunitaria). <https://discuss.privacyguides.net/t/updated-cellebrite-iphone-support-matrix-leak/19578/25>
+18. Joseph Cox, 404 Media, llamada de Teams de Cellebrite, 30 oct 2025 (muro de pago). <https://www.404media.co/someone-snuck-into-a-cellebrite-microsoft-teams-call-and-leaked-phone-unlocking-details/>
+19. Foro de Privacy Guides, transcripción de la tabla del Pixel 9, 30 oct 2025 (fuente comunitaria, imagen borrosa). <https://discuss.privacyguides.net/t/someone-snuck-into-a-cellebrite-microsoft-teams-call-and-leaked-phone-unlocking-details/32448>
+20. Zinkus, Jois y Green, Data Security on Mobile Devices, Johns Hopkins, arXiv 2105.12613, mayo de 2021. https://arxiv.org/abs/2105.12613 y <https://securephones.io/main.html>
+21. Markert, Bailey, Golla, Dürmuth y Aviv, This PIN Can Be Easily Guessed, IEEE S&P 2020. <https://arxiv.org/abs/2003.04868>
+22. Ley de Enjuiciamiento Criminal, arts. 588 sexies a a c (texto consolidado, BOE). <https://www.boe.es/buscar/act.php?id=BOE-A-1882-6036>
+23. Apple Platform Security, Face ID, Touch ID, códigos y contraseñas (página del 19 dic 2024). <https://support.apple.com/guide/security/face-id-touch-id-passcodes-and-passwords-sec9479035f1/web>
+24. GrapheneOS, notas de versión. <https://grapheneos.org/releases>
+25. Android Central, Google Play services de abril de 2025 añade reinicio automático (resumen de las notas de versión; la nota oficial de Google no se pudo recuperar). <https://www.androidcentral.com/apps-software/android-os/google-play-services-april-auto-reboot-security-changelog>

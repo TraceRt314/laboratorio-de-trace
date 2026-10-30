@@ -73,37 +73,37 @@ El artículo 5.3 de la Directiva ePrivacy exige consentimiento para acceder a in
 
 ## Fuentes
 
-1. W3C, Mitigating Browser Fingerprinting in Web Specifications (nota del Grupo de Privacidad, 25 sep 2025). https://www.w3.org/TR/fingerprinting-guidance/
-2. Luo, Ritter, Savage y Voelker, canvas fingerprinting, IMC 2025. https://cseweb.ucsd.edu/~savage/papers/IMC25Canvas.pdf
-3. Eckersley, How Unique Is Your Web Browser?, PETS 2010. https://coveryourtracks.eff.org/static/browser-uniqueness.pdf
-4. Laperdrix, Rudametkin y Baudry, Beauty and the Beast, IEEE S&P 2016. https://inria.hal.science/hal-01285470/document
-5. Gómez-Boix, Laperdrix y Baudry, Hiding in the Crowd, WWW 2018. https://inria.hal.science/hal-01718234/document
-6. Vastel et al., FP-STALKER, IEEE S&P 2018. https://inria.hal.science/hal-01652021/document
-7. Mowery y Shacham, Pixel Perfect, 2012. https://hovav.net/ucsd/dist/canvas.pdf
-8. Englehardt y Narayanan, Online Tracking, CCS 2016. https://senglehardt.com/papers/ccs16_online_tracking.pdf
-9. Iqbal et al., Fingerprinting the Fingerprinters, IEEE S&P 2021. https://arxiv.org/html/2008.04480
-10. Web Almanac 2025, Privacidad. https://almanac.httparchive.org/en/2025/privacy
-11. AEPD, Estudio sobre fingerprinting o huella digital del dispositivo (2018). https://www.aepd.es/guias/estudio-fingerprinting-huella-digital.pdf
-12. Arvind Narayanan, 33 Bits of Entropy. https://33bits.wordpress.com/about/
-13. Fingerprint, Identification. https://fingerprint.com/products/identification/
-14. Fingerprint Docs, precisión y confianza. https://docs.fingerprint.com/docs/identification-accuracy-and-confidence
-15. ICO, respuesta al cambio de política de Google, 19 dic 2024. https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2024/12/our-response-to-google-s-policy-change-on-fingerprinting
-16. Privacy Sandbox, Update on plans, 17 oct 2025. https://privacysandbox.google.com/blog/update-on-plans-for-privacy-sandbox-technologies
-17. BleepingComputer, LinkedIn y las extensiones de Chrome, 3 abr 2026. https://www.bleepingcomputer.com/news/security/linkedin-secretely-scans-for-6-000-plus-chrome-extensions-collects-data
-18. Mozilla, Firefox expands fingerprint protections, nov 2025. https://blog.mozilla.org/en/firefox/fingerprinting-protections/
-19. Firefox 151, notas de la versión, 19 may 2026. https://www.firefox.com/en-US/firefox/151.0/releasenotes/
-20. BleepingComputer, Mozilla Firefox gets new anti-fingerprinting defenses, 10 nov 2025 (fuente secundaria). https://www.bleepingcomputer.com/news/security/mozilla-firefox-gets-new-anti-fingerprinting-defenses/
-21. WebKit, Private Browsing 2.0. https://webkit.org/blog/15697/private-browsing-2-0/
-22. WebKit, Safari 26.0 (https://webkit.org/blog/17333/webkit-features-in-safari-26-0/) y 9to5Mac, 1 sep 2025 (https://9to5mac.com/2025/09/01/security-bite-my-favorite-privacy-features-in-ios-26/)
-23. Brave, Fingerprinting Protections. https://github.com/brave/brave-browser/wiki/Fingerprinting-Protections
-24. Brave, Sunsetting Strict fingerprinting mode, 18 ene 2024. https://brave.com/privacy-updates/28-sunsetting-strict-fingerprinting-mode/
-25. Tor Project, Design and Implementation (edición de 2019). https://2019.www.torproject.org/projects/torbrowser/design/
-26. Ayuda de Chrome, Incógnito. https://support.google.com/chrome/answer/95464
-27. CEPD, Directrices 2/2023 v2.0, 7 oct 2024. https://www.edpb.europa.eu/system/files/2024-10/edpb_guidelines_202302_technical_scope_art_53_eprivacydirective_v2_en_0.pdf
-28. AEPD, Guía sobre el uso de las cookies, mayo de 2024. https://www.aepd.es/guias/guia-cookies.pdf
-29. EFF, Cover Your Tracks. https://coveryourtracks.eff.org/
-30. Firefox Source Docs, Privacy Capabilities Overview (ETP). https://firefox-source-docs.mozilla.org/toolkit/components/antitracking/anti-tracking/etp-matrix/
-31. Google, Building a more private web, 22 ago 2019. https://www.blog.google/products/chrome/building-a-more-private-web/
-32. StatCounter, Browser Market Share Worldwide. https://gs.statcounter.com/browser-market-share/monthly/worldwide
-33. Banco Santander, Política de cookies. https://www.bancosantander.es/es/politica-de-cookies
-34. BGR, iOS 26 Advanced Tracking and Fingerprinting Protection (fuente secundaria). https://www.bgr.com/1962665/ios-26-advanced-tracking-fingerprinting-protections-google/
+1. W3C, Mitigating Browser Fingerprinting in Web Specifications (nota del Grupo de Privacidad, 25 sep 2025). <https://www.w3.org/TR/fingerprinting-guidance/>
+2. Luo, Ritter, Savage y Voelker, canvas fingerprinting, IMC 2025. <https://cseweb.ucsd.edu/~savage/papers/IMC25Canvas.pdf>
+3. Eckersley, How Unique Is Your Web Browser?, PETS 2010. <https://coveryourtracks.eff.org/static/browser-uniqueness.pdf>
+4. Laperdrix, Rudametkin y Baudry, Beauty and the Beast, IEEE S&P 2016. <https://inria.hal.science/hal-01285470/document>
+5. Gómez-Boix, Laperdrix y Baudry, Hiding in the Crowd, WWW 2018. <https://inria.hal.science/hal-01718234/document>
+6. Vastel et al., FP-STALKER, IEEE S&P 2018. <https://inria.hal.science/hal-01652021/document>
+7. Mowery y Shacham, Pixel Perfect, 2012. <https://hovav.net/ucsd/dist/canvas.pdf>
+8. Englehardt y Narayanan, Online Tracking, CCS 2016. <https://senglehardt.com/papers/ccs16_online_tracking.pdf>
+9. Iqbal et al., Fingerprinting the Fingerprinters, IEEE S&P 2021. <https://arxiv.org/html/2008.04480>
+10. Web Almanac 2025, Privacidad. <https://almanac.httparchive.org/en/2025/privacy>
+11. AEPD, Estudio sobre fingerprinting o huella digital del dispositivo (2018). <https://www.aepd.es/guias/estudio-fingerprinting-huella-digital.pdf>
+12. Arvind Narayanan, 33 Bits of Entropy. <https://33bits.wordpress.com/about/>
+13. Fingerprint, Identification. <https://fingerprint.com/products/identification/>
+14. Fingerprint Docs, precisión y confianza. <https://docs.fingerprint.com/docs/identification-accuracy-and-confidence>
+15. ICO, respuesta al cambio de política de Google, 19 dic 2024. <https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2024/12/our-response-to-google-s-policy-change-on-fingerprinting>
+16. Privacy Sandbox, Update on plans, 17 oct 2025. <https://privacysandbox.google.com/blog/update-on-plans-for-privacy-sandbox-technologies>
+17. BleepingComputer, LinkedIn y las extensiones de Chrome, 3 abr 2026. <https://www.bleepingcomputer.com/news/security/linkedin-secretely-scans-for-6-000-plus-chrome-extensions-collects-data>
+18. Mozilla, Firefox expands fingerprint protections, nov 2025. <https://blog.mozilla.org/en/firefox/fingerprinting-protections/>
+19. Firefox 151, notas de la versión, 19 may 2026. <https://www.firefox.com/en-US/firefox/151.0/releasenotes/>
+20. BleepingComputer, Mozilla Firefox gets new anti-fingerprinting defenses, 10 nov 2025 (fuente secundaria). <https://www.bleepingcomputer.com/news/security/mozilla-firefox-gets-new-anti-fingerprinting-defenses/>
+21. WebKit, Private Browsing 2.0. <https://webkit.org/blog/15697/private-browsing-2-0/>
+22. WebKit, Safari 26.0 (https://webkit.org/blog/17333/webkit-features-in-safari-26-0/) y 9to5Mac, 1 sep 2025 (<https://9to5mac.com/2025/09/01/security-bite-my-favorite-privacy-features-in-ios-26/)>
+23. Brave, Fingerprinting Protections. <https://github.com/brave/brave-browser/wiki/Fingerprinting-Protections>
+24. Brave, Sunsetting Strict fingerprinting mode, 18 ene 2024. <https://brave.com/privacy-updates/28-sunsetting-strict-fingerprinting-mode/>
+25. Tor Project, Design and Implementation (edición de 2019). <https://2019.www.torproject.org/projects/torbrowser/design/>
+26. Ayuda de Chrome, Incógnito. <https://support.google.com/chrome/answer/95464>
+27. CEPD, Directrices 2/2023 v2.0, 7 oct 2024. <https://www.edpb.europa.eu/system/files/2024-10/edpb_guidelines_202302_technical_scope_art_53_eprivacydirective_v2_en_0.pdf>
+28. AEPD, Guía sobre el uso de las cookies, mayo de 2024. <https://www.aepd.es/guias/guia-cookies.pdf>
+29. EFF, Cover Your Tracks. <https://coveryourtracks.eff.org/>
+30. Firefox Source Docs, Privacy Capabilities Overview (ETP). <https://firefox-source-docs.mozilla.org/toolkit/components/antitracking/anti-tracking/etp-matrix/>
+31. Google, Building a more private web, 22 ago 2019. <https://www.blog.google/products/chrome/building-a-more-private-web/>
+32. StatCounter, Browser Market Share Worldwide. <https://gs.statcounter.com/browser-market-share/monthly/worldwide>
+33. Banco Santander, Política de cookies. <https://www.bancosantander.es/es/politica-de-cookies>
+34. BGR, iOS 26 Advanced Tracking and Fingerprinting Protection (fuente secundaria). <https://www.bgr.com/1962665/ios-26-advanced-tracking-fingerprinting-protections-google/>

@@ -1,0 +1,13 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark light">
+<title>{% if page.title and page.layout != "home" %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ include.resumen | default: site.description }}">
+<meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:description" content="{{ include.resumen | default: site.description }}">
+<meta property="og:image" content="{% if include.imagen %}{{ '/assets/portadas/' | append: include.imagen | append: '.webp' | absolute_url }}{% else %}{{ '/assets/avatar.webp' | absolute_url }}{% endif %}">
+<link rel="icon" href="{{ '/assets/avatar.webp' | relative_url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Manrope:wght@400;500;700&family=Sora:wght@600;700;800&display=swap">
+<link rel="stylesheet" href="{{ '/assets/estilo.css' | relative_url }}">

@@ -62,34 +62,34 @@ El mapa con tres anillos (15 m, un barrio y 25 km) es una ilustración sobre una
 
 ## Fuentes
 
-1. Google, Manage your Android device's location settings. https://support.google.com/accounts/answer/3467281
-2. Google Maps Help, Find and improve your location's accuracy. https://support.google.com/maps/answer/2839911
-3. Apple, About privacy and Location Services (mayo de 2026). https://support.apple.com/en-us/102515
-4. Apple Legal, Location Services and Privacy (11 feb 2026). https://www.apple.com/legal/privacy/data/en/location-services/
-5. Android Developers, Wi-Fi scanning overview (23 oct 2026). https://developer.android.com/develop/connectivity/wifi/wifi-scan
-6. Android Developers, Wi-Fi location, ranging with RTT. https://developer.android.com/develop/connectivity/wifi/wifi-rtt
-7. Android Developers, fused location provider. https://developer.android.com/develop/sensors-and-location/location/retrieve-current
-8. Android Developers, permisos Bluetooth. https://developer.android.com/develop/connectivity/bluetooth/bt-permissions
-9. Google, Manage your Pixel phone's location settings. https://support.google.com/pixelphone/answer/3467281
-10. AOSP, WifiSettingsStore.java y BluetoothManagerService.java (rama main, 25 oct 2026). https://android.googlesource.com/platform/packages/modules/Wifi/+/refs/heads/main/service/java/com/android/server/wifi/WifiSettingsStore.java y https://android.googlesource.com/platform/packages/modules/Bluetooth/+/refs/heads/main/service/src/com/android/server/bluetooth/BluetoothManagerService.java
-11. Google, Keep your Android's wireless connections on in Airplane mode. https://support.google.com/pixelphone/answer/12639358
-12. Apple, Use Airplane Mode (11 feb 2026). https://support.apple.com/108785
-13. Rye y Levin, Surveilling the Masses with Wi-Fi-Based Positioning Systems, IEEE S&P 2024, arXiv 2405.14975. https://arxiv.org/abs/2405.14975
-14. Google, Control access point inclusion in Google's Location services. https://support.google.com/maps/answer/1725632
-15. BeaconDB. https://beacondb.net
-16. Mozilla, Retiring the Mozilla Location Service, 13 mar 2024. https://github.com/mozilla/ichnaea/issues/2065
-17. Wikipedia, E-CellID (fuente secundaria). https://en.wikipedia.org/wiki/E-CellID
-18. Ogulenko et al., The fallacy of the closest antenna, arXiv 2109.02154, 2021. https://arxiv.org/abs/2109.02154
-19. Ley 25/2007, de conservación de datos, arts. 3, 5 y 6 (BOE). https://www.boe.es/buscar/act.php?id=BOE-A-2007-18243
-20. GPS.gov, GPS Accuracy (archivo). https://archive.gps.gov/systems/gps/performance/accuracy/
-21. Marlo McGriff, Google, 12 dic 2023. https://blog.google/products/maps/updates-to-location-history-and-new-controls-coming-soon-to-maps/
-22. Google Maps Help, Manage your Google Maps Timeline. https://support.google.com/maps/answer/14169818
-23. Android Authority, 13 nov 2024 (fuente de prensa). https://www.androidauthority.com/google-maps-timeline-deadline-3499115/
-24. Android Developers, WifiManager.isScanAlwaysAvailable (obsoleto desde API 29). https://developer.android.com/reference/android/net/wifi/WifiManager
-25. AP, Google tracks your movements, like it or not (agosto de 2018, copia en ABC13). https://abc13.com/technology/ap-google-tracks-your-movements-like-it-or-not/3953696/
-26. Google Maps blog, Your Timeline: Revisiting the world that you've explored, 21 jul 2015. https://maps.googleblog.com/2015/07/your-timeline-revisiting-world-that.html
-27. CNBC, Google settles with 40 states over location tracking practices, 14 nov 2022. https://www.cnbc.com/2022/11/14/google-settles-with-40-states-over-location-tracking-practices.html y nota de prensa de Oregon (NAAG) https://www.naag.org/wp-content/uploads/2025/08/2022.11.14-OR-Press-Release.pdf
-28. Android Developers, Location.getAccuracy. https://developer.android.com/reference/android/location/Location
-29. Gobierno Vasco, sistema AML para el 112, 16 feb 2022. https://www.euskadi.eus/gobierno-vasco/-/noticia/2022/el-gobierno-vasco-incorpora-el-sistema-de-localizacion-de-llamadas-de-personas-que-necesiten-auxilio-de-los-servicios-de-emergencias-advance-mobile-location-aml/
-30. Google, Emergency Location Service, fundamentals. https://developers.google.com/android/els/fundamentals
-31. 3GPP TS 24.301, temporizadores de gestión de movilidad EPS (T3412; espejo iTecSpec). https://www.itecspec.com/3gpp/24.301/s/10.2
+1. Google, Manage your Android device's location settings. <https://support.google.com/accounts/answer/3467281>
+2. Google Maps Help, Find and improve your location's accuracy. <https://support.google.com/maps/answer/2839911>
+3. Apple, About privacy and Location Services (mayo de 2026). <https://support.apple.com/en-us/102515>
+4. Apple Legal, Location Services and Privacy (11 feb 2026). <https://www.apple.com/legal/privacy/data/en/location-services/>
+5. Android Developers, Wi-Fi scanning overview (23 oct 2026). <https://developer.android.com/develop/connectivity/wifi/wifi-scan>
+6. Android Developers, Wi-Fi location, ranging with RTT. <https://developer.android.com/develop/connectivity/wifi/wifi-rtt>
+7. Android Developers, fused location provider. <https://developer.android.com/develop/sensors-and-location/location/retrieve-current>
+8. Android Developers, permisos Bluetooth. <https://developer.android.com/develop/connectivity/bluetooth/bt-permissions>
+9. Google, Manage your Pixel phone's location settings. <https://support.google.com/pixelphone/answer/3467281>
+10. AOSP, WifiSettingsStore.java y BluetoothManagerService.java (rama main, 25 oct 2026). https://android.googlesource.com/platform/packages/modules/Wifi/+/refs/heads/main/service/java/com/android/server/wifi/WifiSettingsStore.java y <https://android.googlesource.com/platform/packages/modules/Bluetooth/+/refs/heads/main/service/src/com/android/server/bluetooth/BluetoothManagerService.java>
+11. Google, Keep your Android's wireless connections on in Airplane mode. <https://support.google.com/pixelphone/answer/12639358>
+12. Apple, Use Airplane Mode (11 feb 2026). <https://support.apple.com/108785>
+13. Rye y Levin, Surveilling the Masses with Wi-Fi-Based Positioning Systems, IEEE S&P 2024, arXiv 2405.14975. <https://arxiv.org/abs/2405.14975>
+14. Google, Control access point inclusion in Google's Location services. <https://support.google.com/maps/answer/1725632>
+15. BeaconDB. <https://beacondb.net>
+16. Mozilla, Retiring the Mozilla Location Service, 13 mar 2024. <https://github.com/mozilla/ichnaea/issues/2065>
+17. Wikipedia, E-CellID (fuente secundaria). <https://en.wikipedia.org/wiki/E-CellID>
+18. Ogulenko et al., The fallacy of the closest antenna, arXiv 2109.02154, 2021. <https://arxiv.org/abs/2109.02154>
+19. Ley 25/2007, de conservación de datos, arts. 3, 5 y 6 (BOE). <https://www.boe.es/buscar/act.php?id=BOE-A-2007-18243>
+20. GPS.gov, GPS Accuracy (archivo). <https://archive.gps.gov/systems/gps/performance/accuracy/>
+21. Marlo McGriff, Google, 12 dic 2023. <https://blog.google/products/maps/updates-to-location-history-and-new-controls-coming-soon-to-maps/>
+22. Google Maps Help, Manage your Google Maps Timeline. <https://support.google.com/maps/answer/14169818>
+23. Android Authority, 13 nov 2024 (fuente de prensa). <https://www.androidauthority.com/google-maps-timeline-deadline-3499115/>
+24. Android Developers, WifiManager.isScanAlwaysAvailable (obsoleto desde API 29). <https://developer.android.com/reference/android/net/wifi/WifiManager>
+25. AP, Google tracks your movements, like it or not (agosto de 2018, copia en ABC13). <https://abc13.com/technology/ap-google-tracks-your-movements-like-it-or-not/3953696/>
+26. Google Maps blog, Your Timeline: Revisiting the world that you've explored, 21 jul 2015. <https://maps.googleblog.com/2015/07/your-timeline-revisiting-world-that.html>
+27. CNBC, Google settles with 40 states over location tracking practices, 14 nov 2022. https://www.cnbc.com/2022/11/14/google-settles-with-40-states-over-location-tracking-practices.html y nota de prensa de Oregon (NAAG) <https://www.naag.org/wp-content/uploads/2025/08/2022.11.14-OR-Press-Release.pdf>
+28. Android Developers, Location.getAccuracy. <https://developer.android.com/reference/android/location/Location>
+29. Gobierno Vasco, sistema AML para el 112, 16 feb 2022. <https://www.euskadi.eus/gobierno-vasco/-/noticia/2022/el-gobierno-vasco-incorpora-el-sistema-de-localizacion-de-llamadas-de-personas-que-necesiten-auxilio-de-los-servicios-de-emergencias-advance-mobile-location-aml/>
+30. Google, Emergency Location Service, fundamentals. <https://developers.google.com/android/els/fundamentals>
+31. 3GPP TS 24.301, temporizadores de gestión de movilidad EPS (T3412; espejo iTecSpec). <https://www.itecspec.com/3gpp/24.301/s/10.2>

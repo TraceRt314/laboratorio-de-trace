@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+{% include head.html %}
+</head>
+<body style="--ac: var(--blue)">
+{% include barra.html %}
+<main class="inicio">
+  <section class="presentacion">
+    <img class="avatar" src="{{ '/assets/avatar.webp' | relative_url }}" alt="" width="120" height="120">
+    <div>
+      <p class="prompt"><span>trace@laboratorio</span> ~ $ ls docs/</p>
+      <h1>Cada vídeo, por dentro y con sus fuentes</h1>
+      <p class="entradilla">La documentación técnica de El Laboratorio de Trace. Cómo funciona cada cosa, qué hice en el laboratorio, qué dicen los estudios, dónde están los límites y qué puedes hacer tú. Cada dato remite a su fuente.</p>
+    </div>
+  </section>
+  <ol class="episodios">
+    {% for e in site.data.episodios %}
+    <li style="--ac: var(--{{ e.acento }})">
+      <a href="{{ e.slug | append: '.html' | relative_url }}">
+        <img src="{{ '/assets/portadas/' | append: e.slug | append: '.webp' | relative_url }}" alt="" width="1280" height="720" loading="lazy">
+        <div>
+          <p class="antetitulo">Episodio {{ e.num }} <span>·</span> {{ e.fuentes }} fuentes</p>
+          <h2>{{ e.titulo }}</h2>
+          <p>{{ e.resumen }}</p>
+          <span class="leer">Leer la documentación →</span>
+        </div>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</main>
+{% include pie.html %}
+</body>
+</html>

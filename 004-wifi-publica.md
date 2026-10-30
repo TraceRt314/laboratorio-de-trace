@@ -65,39 +65,39 @@ Límites. El laboratorio simula una red, no una cafetería real, y el DoH se for
 
 ## Fuentes
 
-1. Google, HTTPS by default, 28 oct 2025. https://blog.google/security/https-by-defau/
-2. Chrome 154, notas de la versión, 22 sep 2026 (el blog [1] lo anunció para octubre). https://developer.chrome.com/release-notes/154
-3. Web Almanac 2025, Seguridad (HTTP Archive). https://almanac.httparchive.org/en/2025/security
-4. RFC 1035, nov 1987. https://www.rfc-editor.org/rfc/rfc1035.txt
-5. Google Public DNS, DNS-over-TLS. https://developers.google.com/speed/public-dns/docs/dns-over-tls
-6. Android Developers Blog, DNS over TLS en Android P, 13 abr 2018. https://android-developers.googleblog.com/2018/04/dns-over-tls-support-in-android-p.html
-7. RFC 7858, mayo de 2016. https://www.rfc-editor.org/rfc/rfc7858.txt
-8. Ayuda de Android, DNS privado. https://support.google.com/android/answer/9654714
-9. Ayuda de Chrome, DNS seguro. https://support.google.com/chrome/answer/10468685
-10. Chromium Blog, Secure DNS, 19 may 2020. https://blog.chromium.org/2020/05/a-safer-and-more-private-browsing-DoH.html
-11. RFC 8484, oct 2018. https://www.rfc-editor.org/rfc/rfc8484.txt
-12. Apple, WWDC20, Enable encrypted DNS (iOS 14). https://developer.apple.com/videos/play/wwdc2020/10047
-13. Cloudflare, Good-bye ESNI, hello ECH, 8 dic 2020. https://blog.cloudflare.com/encrypted-client-hello/
-14. RFC 8446 (TLS 1.3), ago 2018, y RFC 6066, ene 2011. https://www.rfc-editor.org/rfc/rfc8446.txt y https://www.rfc-editor.org/rfc/rfc6066.txt
-15. RFC 9849, TLS Encrypted Client Hello, mar 2026. https://www.rfc-editor.org/rfc/rfc9849.txt
-16. Cloudflare, Encrypted Client Hello, the last puzzle piece, 29 sep 2023. https://blog.cloudflare.com/announcing-encrypted-client-hello/
-17. Mozilla, Encrypted Hello, 3 oct 2023. https://blog.mozilla.org/en/firefox/encrypted-hello/
-18. Android Developers, Network Security Config (ECH en Android 17). https://developer.android.com/privacy-and-security/security-config
-19. How often is the DNS HTTPS record used?, 3 ago 2025 (blog independiente). https://000yesnt.github.io/posts/dns-https-stats
-20. AOSP NetworkStack, config.xml. https://android.googlesource.com/platform/packages/modules/NetworkStack/+/refs/heads/main/res/values/config.xml
-21. Mullvad, comprobaciones de conectividad en Android, 25 abr 2024. https://mullvad.net/en/help/configure-connectivity-checks-on-android
-22. Apple, Usar productos Apple en redes empresariales. https://support.apple.com/en-us/101555
-23. RFC 8908 y RFC 8910, sep 2020. https://www.rfc-editor.org/rfc/rfc8908.txt y https://www.rfc-editor.org/rfc/rfc8910.txt
-24. Ali, Osman, Mannan y Youssef, On Privacy Risks of Public WiFi Captive Portals, arXiv, 3 jul 2019. https://arxiv.org/pdf/1907.02142
-25. AEPD, Tecnologías de seguimiento wifi, mayo de 2024. https://www.aepd.es/guias/orientaciones-wifi-tracking-seguimiento.pdf
-26. CISA, Securing Wireless Networks. https://www.cisa.gov/news-events/news/securing-wireless-networks
-27. AOSP, aleatorización de MAC wifi. https://source.android.com/docs/core/connect/wifi-mac-randomization
-28. Apple, Dirección wifi privada, 5 dic 2025. https://support.apple.com/en-us/102509
-29. Ikram et al., Android VPN Permission-enabled Apps, IMC 2016. https://research.csiro.au/isp/wp-content/uploads/sites/106/2016/08/paper-1.pdf
-30. INCIBE, tríptico Conexiones seguras. https://www.incibe.es/sites/default/files/docs/osi_cuadriptico_conexiones-seguras.pdf
-31. INCIBE, Conexiones inalámbricas seguras, 13 may 2024. https://www.incibe.es/ciudadania/blog/conexiones-inalambricas-seguras-sabes-como-conseguirlo
-32. Malwarebytes, Popular Android VPN apps found to have security flaws and China links, 4 sep 2025 (reseña del informe de Citizen Lab y ASU). https://www.malwarebytes.com/blog/news/2025/09/popular-android-vpn-apps-found-to-have-security-flaws-and-china-links
-33. Apple, Olvidar una red wifi. https://support.apple.com/en-mn/102480
-34. Apple, Guía de seguridad personal. https://support.apple.com/guide/personal-safety/ips327569a75/web
-35. TJUE, comunicado de prensa 125/19 (asunto C-673/17, Planet49), 1 oct 2019. https://curia.europa.eu/jcms/upload/docs/application/pdf/2019-10/cp190125es.pdf
-36. Quad9, traslado a Suiza (fundación sin ánimo de lucro). https://quad9.net/news/blog/quad9-public-domain-name-service-moves-to-switzerland-for-maximum-internet-privacy-protection/
+1. Google, HTTPS by default, 28 oct 2025. <https://blog.google/security/https-by-defau/>
+2. Chrome 154, notas de la versión, 22 sep 2026 (el blog [1] lo anunció para octubre). <https://developer.chrome.com/release-notes/154>
+3. Web Almanac 2025, Seguridad (HTTP Archive). <https://almanac.httparchive.org/en/2025/security>
+4. RFC 1035, nov 1987. <https://www.rfc-editor.org/rfc/rfc1035.txt>
+5. Google Public DNS, DNS-over-TLS. <https://developers.google.com/speed/public-dns/docs/dns-over-tls>
+6. Android Developers Blog, DNS over TLS en Android P, 13 abr 2018. <https://android-developers.googleblog.com/2018/04/dns-over-tls-support-in-android-p.html>
+7. RFC 7858, mayo de 2016. <https://www.rfc-editor.org/rfc/rfc7858.txt>
+8. Ayuda de Android, DNS privado. <https://support.google.com/android/answer/9654714>
+9. Ayuda de Chrome, DNS seguro. <https://support.google.com/chrome/answer/10468685>
+10. Chromium Blog, Secure DNS, 19 may 2020. <https://blog.chromium.org/2020/05/a-safer-and-more-private-browsing-DoH.html>
+11. RFC 8484, oct 2018. <https://www.rfc-editor.org/rfc/rfc8484.txt>
+12. Apple, WWDC20, Enable encrypted DNS (iOS 14). <https://developer.apple.com/videos/play/wwdc2020/10047>
+13. Cloudflare, Good-bye ESNI, hello ECH, 8 dic 2020. <https://blog.cloudflare.com/encrypted-client-hello/>
+14. RFC 8446 (TLS 1.3), ago 2018, y RFC 6066, ene 2011. https://www.rfc-editor.org/rfc/rfc8446.txt y <https://www.rfc-editor.org/rfc/rfc6066.txt>
+15. RFC 9849, TLS Encrypted Client Hello, mar 2026. <https://www.rfc-editor.org/rfc/rfc9849.txt>
+16. Cloudflare, Encrypted Client Hello, the last puzzle piece, 29 sep 2023. <https://blog.cloudflare.com/announcing-encrypted-client-hello/>
+17. Mozilla, Encrypted Hello, 3 oct 2023. <https://blog.mozilla.org/en/firefox/encrypted-hello/>
+18. Android Developers, Network Security Config (ECH en Android 17). <https://developer.android.com/privacy-and-security/security-config>
+19. How often is the DNS HTTPS record used?, 3 ago 2025 (blog independiente). <https://000yesnt.github.io/posts/dns-https-stats>
+20. AOSP NetworkStack, config.xml. <https://android.googlesource.com/platform/packages/modules/NetworkStack/+/refs/heads/main/res/values/config.xml>
+21. Mullvad, comprobaciones de conectividad en Android, 25 abr 2024. <https://mullvad.net/en/help/configure-connectivity-checks-on-android>
+22. Apple, Usar productos Apple en redes empresariales. <https://support.apple.com/en-us/101555>
+23. RFC 8908 y RFC 8910, sep 2020. https://www.rfc-editor.org/rfc/rfc8908.txt y <https://www.rfc-editor.org/rfc/rfc8910.txt>
+24. Ali, Osman, Mannan y Youssef, On Privacy Risks of Public WiFi Captive Portals, arXiv, 3 jul 2019. <https://arxiv.org/pdf/1907.02142>
+25. AEPD, Tecnologías de seguimiento wifi, mayo de 2024. <https://www.aepd.es/guias/orientaciones-wifi-tracking-seguimiento.pdf>
+26. CISA, Securing Wireless Networks. <https://www.cisa.gov/news-events/news/securing-wireless-networks>
+27. AOSP, aleatorización de MAC wifi. <https://source.android.com/docs/core/connect/wifi-mac-randomization>
+28. Apple, Dirección wifi privada, 5 dic 2025. <https://support.apple.com/en-us/102509>
+29. Ikram et al., Android VPN Permission-enabled Apps, IMC 2016. <https://research.csiro.au/isp/wp-content/uploads/sites/106/2016/08/paper-1.pdf>
+30. INCIBE, tríptico Conexiones seguras. <https://www.incibe.es/sites/default/files/docs/osi_cuadriptico_conexiones-seguras.pdf>
+31. INCIBE, Conexiones inalámbricas seguras, 13 may 2024. <https://www.incibe.es/ciudadania/blog/conexiones-inalambricas-seguras-sabes-como-conseguirlo>
+32. Malwarebytes, Popular Android VPN apps found to have security flaws and China links, 4 sep 2025 (reseña del informe de Citizen Lab y ASU). <https://www.malwarebytes.com/blog/news/2025/09/popular-android-vpn-apps-found-to-have-security-flaws-and-china-links>
+33. Apple, Olvidar una red wifi. <https://support.apple.com/en-mn/102480>
+34. Apple, Guía de seguridad personal. <https://support.apple.com/guide/personal-safety/ips327569a75/web>
+35. TJUE, comunicado de prensa 125/19 (asunto C-673/17, Planet49), 1 oct 2019. <https://curia.europa.eu/jcms/upload/docs/application/pdf/2019-10/cp190125es.pdf>
+36. Quad9, traslado a Suiza (fundación sin ánimo de lucro). <https://quad9.net/news/blog/quad9-public-domain-name-service-moves-to-switzerland-for-maximum-internet-privacy-protection/>

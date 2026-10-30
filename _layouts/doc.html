@@ -1,0 +1,31 @@
+{%- assign slug = page.name | remove: ".md" -%}
+{%- assign ep = site.data.episodios | where: "slug", slug | first -%}
+<!doctype html>
+<html lang="es">
+<head>
+{% include head.html resumen=ep.resumen imagen=ep.slug %}
+</head>
+<body style="--ac: var(--{{ ep.acento | default: 'blue' }})">
+{% include barra.html slug=slug %}
+<main>
+  <section class="portada">
+    <div class="portada-texto">
+      <p class="antetitulo">Episodio {{ ep.num }} <span>·</span> documentación técnica</p>
+      <h1>{{ page.title }}</h1>
+      <ul class="datos">
+        <li><b>{{ ep.fuentes }}</b> fuentes</li>
+        <li><b>{{ content | strip_html | number_of_words | divided_by: 200 | plus: 1 }}</b> min de lectura</li>
+      </ul>
+      <a class="ver" href="{{ ep.video }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>Ver el vídeo</a>
+    </div>
+    <a class="miniatura" href="{{ ep.video }}" aria-label="Ver el vídeo en YouTube"><img src="{{ '/assets/portadas/' | append: slug | append: '.webp' | relative_url }}" alt="" width="1280" height="720"></a>
+  </section>
+  <div class="cuerpo">
+    <aside class="indice"><p>En esta página</p><ol id="indice"></ol></aside>
+    <article class="doc">{{ content }}</article>
+  </div>
+</main>
+{% include pie.html %}
+<script src="{{ '/assets/doc.js' | relative_url }}"></script>
+</body>
+</html>

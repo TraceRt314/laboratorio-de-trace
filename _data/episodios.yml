@@ -1,0 +1,29 @@
+# Del más reciente al más antiguo. acento: color de Catppuccin de cada episodio.
+- num: "005"
+  slug: 005-huella-navegador
+  titulo: Saben quién eres aunque borres las cookies y uses incógnito
+  resumen: Cómo una web reconoce tu navegador sin guardar nada en él, qué miden los estudios y qué navegadores se defienden.
+  video: https://youtu.be/j1gH1r7D7Es
+  fuentes: 34
+  acento: mauve
+- num: "004"
+  slug: 004-wifi-publica
+  titulo: El dueño del bar sabe que abriste Tinder
+  resumen: Qué ve de ti quien controla una red wifi pública aunque uses HTTPS, y dónde está el riesgo real.
+  video: https://youtu.be/7qc2pZK_Pls
+  fuentes: 36
+  acento: yellow
+- num: "003"
+  slug: 003-sin-gps
+  titulo: Saben dónde estás aunque el GPS esté apagado
+  resumen: Cómo se calcula la posición de un móvil sin GPS, con redes wifi, antenas y mapas construidos por otros móviles.
+  video: https://youtu.be/75DaV7dzgGY
+  fuentes: 31
+  acento: teal
+- num: "002"
+  slug: 002-bfu-afu-forense
+  titulo: Así abren tu móvil bloqueado, y por qué un reinicio lo complica
+  resumen: Por qué un móvil recién reiniciado resiste mucho mejor un análisis forense que uno que lleva días encendido.
+  video: https://youtu.be/aKfE4N0A4BM
+  fuentes: 25
+  acento: peach

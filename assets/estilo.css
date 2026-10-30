@@ -3,7 +3,7 @@
   --base: #1e1e2e; --mantle: #181825; --crust: #11111b;
   --s0: #313244; --s1: #45475a; --ov: #6c7086; --sub: #a6adc8; --text: #cdd6f4;
   --blue: #89b4fa; --mauve: #cba6f7; --peach: #fab387; --teal: #94e2d5; --green: #a6e3a1; --yellow: #f9e2af; --red: #f38ba8;
-  --ac: var(--blue);
+  --ac: var(--blue); --sobre-ac: #11111b;
   --sans: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
   --display: "Sora", "Manrope", system-ui, sans-serif;
   --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
@@ -14,6 +14,7 @@
     --base: #eff1f5; --mantle: #e6e9ef; --crust: #dce0e8;
     --s0: #ccd0da; --s1: #bcc0cc; --ov: #8c8fa1; --sub: #5c5f77; --text: #4c4f69;
     --blue: #1e66f5; --mauve: #8839ef; --peach: #fe640b; --teal: #179299; --green: #40a02b; --yellow: #df8e1d; --red: #d20f39;
+    --sobre-ac: #ffffff;
     color-scheme: light;
   }
 }
@@ -41,11 +42,9 @@ img { max-width: 100%; height: auto; display: block; }
 .marca img { border-radius: 8px; }
 .pestanas { display: flex; gap: 4px; margin-left: auto; }
 .pestanas a { color: var(--sub); text-decoration: none; padding: 6px 10px; border-radius: 6px; }
-.pestanas a span { color: var(--ov); margin-right: 6px; }
 .pestanas a:hover { background: var(--s0); color: var(--text); }
-.pestanas a[aria-current] { background: var(--ac); color: var(--crust); }
-.pestanas a[aria-current] span { color: color-mix(in srgb, var(--crust) 60%, transparent); }
-.canal { color: var(--crust); background: var(--red); text-decoration: none; padding: 6px 10px; border-radius: 6px; font-weight: 600; }
+.pestanas a[aria-current] { background: var(--ac); color: var(--sobre-ac); }
+.canal { color: var(--sobre-ac); background: var(--red); text-decoration: none; padding: 6px 10px; border-radius: 6px; font-weight: 600; }
 
 main, .pie { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left)); padding-right: max(16px, env(safe-area-inset-right)); }
 
@@ -58,7 +57,7 @@ main, .pie { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe
 .datos b { color: var(--text); font-weight: 600; }
 .ver {
   display: inline-flex; align-items: center; gap: 10px; padding: 12px 20px 12px 16px; border-radius: 12px;
-  background: var(--ac); color: var(--crust); font: 700 15px/1 var(--sans); text-decoration: none;
+  background: var(--ac); color: var(--sobre-ac); font: 700 15px/1 var(--sans); text-decoration: none;
   box-shadow: 0 10px 30px -10px color-mix(in srgb, var(--ac) 70%, transparent); transition: transform .15s;
 }
 .ver svg { width: 18px; height: 18px; fill: currentColor; }
@@ -102,7 +101,7 @@ main, .pie { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe
   padding: .22em .42em; margin-left: 1px; border-radius: 5px;
   color: var(--ac); background: color-mix(in srgb, var(--ac) 16%, transparent);
 }
-.cita:hover { background: var(--ac); color: var(--crust); }
+.cita:hover { background: var(--ac); color: var(--sobre-ac); }
 
 /* Qué puedes hacer: tarjetas numeradas */
 .doc ol.pasos { list-style: none; padding: 0; counter-reset: paso; display: grid; gap: 12px; }
@@ -113,7 +112,7 @@ main, .pie { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe
 .doc ol.pasos > li::before {
   content: counter(paso, decimal-leading-zero); position: absolute; left: 18px; top: 18px;
   width: 34px; height: 34px; display: grid; place-items: center; border-radius: 9px;
-  font: 700 13px/1 var(--mono); color: var(--crust); background: var(--ac);
+  font: 700 13px/1 var(--mono); color: var(--sobre-ac); background: var(--ac);
 }
 
 /* Fuentes */
@@ -155,7 +154,7 @@ main, .pie { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe
 }
 @media (max-width: 640px) {
   body { font-size: 16.5px; }
-  .marca span, .pestanas a span { display: none; }
+  .marca span { display: none; }
   .pestanas a { padding: 6px 8px; }
   .presentacion { flex-direction: column; align-items: flex-start; padding-block: 40px 32px; gap: 20px; }
   .avatar { width: 84px; height: 84px; border-radius: 20px; }

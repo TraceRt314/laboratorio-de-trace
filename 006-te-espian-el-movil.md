@@ -52,7 +52,7 @@ No hay una cifra abierta del porcentaje de víctimas de stalkerware que lo son p
 
 **"Oigo ecos o clics."** No se encontró ningún estudio académico ni norma que mida si una intervención produce clics o ecos audibles. La explicación divulgativa los atribuye a pérdida de paquetes, cambios de antena, latencia o interferencias [26]. Esa fuente no es primaria y la conclusión prudente, que un clic o un eco no prueba que te escuchen ni lo contrario, es de este documento.
 
-**"Me llegan mensajes raros."** Lo habitual es phishing. Y los correos que dicen haber infectado tu dispositivo con software espía y piden dinero son, según INCIBE, sextorsión sin ninguna infección real. No hay que pagar ni responder [27].
+**"Me llegan mensajes raros."** Lo habitual es phishing. Aparte está la sextorsión, un timo concreto que describe INCIBE. Llega un correo que dice que tu dispositivo lleva meses infectado con software espía, que te han grabado con la cámara viendo porno y que enviarán el vídeo a tus contactos si no pagas en bitcoins en 48 horas. No hay ninguna infección ni ninguna grabación. No hay que pagar ni responder [27]. Un correo que pide dinero por un supuesto programa espía, sin esa amenaza sexual, sigue siendo una estafa o una extorsión, pero no es sextorsión.
 
 **"El micrófono me escucha para los anuncios."** El estudio Panoptispy (PETS 2018, Northeastern) analizó 17.260 apps de cuatro tiendas. Tras el análisis dinámico de 9.100 apps, el 53 %, no encontró "ningún archivo de audio verdadero positivo". Sí halló bibliotecas de terceros que graban y suben capturas o vídeo de la pantalla sin permisos ni aviso. Appsee estaba en 33 apps de su muestra de Google Play, la app GoPuff grababa la pantalla y enviaba datos como el código postal, y la app SAHIC envió 45 capturas con búsquedas y mensajes mediante TestFairy. Google dijo haber revisado GoPuff y Appsee y "tomado las acciones adecuadas" [28]. Los autores declaran límites. Las pruebas dinámicas fueron en dos Nexus 5 con Android 4.4.4, solo Android, y pueden dar falsos negativos, así que la ausencia de audio en una muestra de 2018 no es prueba universal de hoy [28]. Aparte, 404 Media publicó en agosto de 2024 la presentación comercial de Cox Media Group sobre su "Active Listening", una afirmación comercial. Meta dijo que no usa el micrófono para anuncios, según TechSpot [29][30]. No se encontró ningún análisis técnico independiente que demuestre que funcionara a escala.
 
@@ -113,7 +113,11 @@ Límites. Es una demo propia y un solo emulador. Las apps espía comerciales pue
 
 **Antes de borrarla.** La Coalition recomienda crear un plan de seguridad, con un dispositivo más seguro y un programa de ayuda a supervivientes de confianza. Quitar la app "puede ser detectada por el abusor y podría aumentar el abuso y el acoso", así que solo debe intentarse si es seguro, y al quitarla también se van las pruebas [24]. Hay que buscar ayuda desde un dispositivo al que el agresor nunca haya tenido acceso físico, y en peligro inmediato llamar a las autoridades locales [58]. INCIBE describe un caso real cuyos pasos fueron reunir pruebas, denunciar y desinstalar [59]. La guía general del NCSC dice que en móviles lo más seguro ante una infección es un restablecimiento de fábrica, pero es una guía de malware, no de stalkerware, y borra las pruebas [60].
 
-**Líneas de ayuda verificadas.** Son líneas para mujeres, y para otros casos conviene acudir a las líneas oficiales de tu país.
+**Líneas de ayuda verificadas.** El stalkerware le puede pasar a cualquiera, y quien espía puede ser una pareja, una expareja o un familiar. En peligro inmediato, la policía o el número de emergencias de tu país.
+
+- *España, 017.* La línea de ayuda en ciberseguridad de INCIBE, gratuita y confidencial, de 8 a 23 horas los 365 días, para ciudadanos, empresas, menores y su entorno. Tiene WhatsApp en el 900 116 117 [72].
+
+Las tres siguientes son líneas de violencia contra las mujeres. En el vídeo se dieron como si fueran generales, y no lo son (está en la fe de erratas).
 
 - *España, 016.* Gratuito y confidencial, con información y apoyo psicosocial 24 horas, asesoramiento jurídico de 8 a 22 horas y 53 idiomas. Tiene WhatsApp en el 600 000 016 (solo mensajes) y correo 016-online@igualdad.gob.es. La página dice que las llamadas no se guardan en el registro de llamadas en ciertos modelos, pero no que no aparezcan en la factura [61].
 - *México, 079 opción 1.* Línea de las Mujeres, 24 horas, 365 días, gratuita y confidencial. El 911 es la emergencia general [62].
@@ -217,3 +221,4 @@ Límites. Es una demo propia y un solo emulador. Las apps espía comerciales pue
 69. Google Messages Help, Control message storage & access. <https://support.google.com/messages/answer/10252674?hl=en-419>
 70. Android Help, Manage permissions from the privacy dashboard. <https://support.google.com/android/answer/13530434?hl=en>
 71. Android Help, Use Google Play Protect. <https://support.google.com/android/answer/2812853?hl=en>
+72. INCIBE, Línea de Ayuda en Ciberseguridad 017. <https://www.incibe.es/linea-de-ayuda-en-ciberseguridad>

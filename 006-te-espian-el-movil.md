@@ -1,4 +1,4 @@
-# Cómo saber si te espían el celular (el *#21# no sirve)
+# Cómo saber si te espían el móvil (el *#21# no sirve)
 
 Documentación técnica del episodio 006 de El Laboratorio de Trace: quién espía de verdad un móvil, qué códigos y señales no sirven para detectarlo, cómo se esconde una app espía en Android y dónde mirar en el móvil y en las cuentas.
 

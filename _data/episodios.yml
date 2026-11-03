@@ -1,4 +1,11 @@
 # Del más reciente al más antiguo. acento: color de Catppuccin de cada episodio.
+- num: "006"
+  slug: 006-te-espian-el-movil
+  titulo: Cómo saber si te espían el celular (el *#21# no sirve)
+  resumen: Una app espía de prueba en el laboratorio, los mitos que no sirven y los sitios exactos donde mirar en Android, iPhone y WhatsApp.
+  video: https://youtu.be/stF6HsvEpho
+  fuentes: 71
+  acento: red
 - num: "005"
   slug: 005-huella-navegador
   titulo: Saben quién eres aunque borres las cookies y uses incógnito
